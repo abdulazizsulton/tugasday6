@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D2D180"
+    tools:context=".DetailActivity2">
+
+    <ImageView
+        android:id="@+id/logo_animeView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:id="@+id/overviewView"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/namaAnimeView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/epsView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/judul_alternatifView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/ratingView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/airedView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/typeView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/statusView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/genresView"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_gravity="center"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:text="Share"/>
+
+
+
+</LinearLayout>
